@@ -1,3 +1,5 @@
+# while 초기값을 주고 조건을 주고 조건이 변할수 있는 값을 넣어줘야함
+
 
 # treeHit = 0
 # while treeHit <10:
@@ -28,13 +30,13 @@
 #      print(prompt)
 #      number = int(input())
 
-# coffee = 10
-# money = 300
-# while money:
-#     print("돈을 받았으니 주먹을 줍니다")
-#     coffee = coffee -1
-#     print("남은 주먹의 양은 %d개입니다."%coffee)
-#     if coffee == 0:
-#         print('주먹이 다 떨어졌습니다. 폭력을 중지합니다.')
-#         break
+coffee = 10
+money = 300
+while money:
+    print("돈을 받았으니 주먹을 줍니다")
+    coffee = coffee -1
+    print("남은 주먹의 양은 %d개입니다."%coffee)
+    if coffee == 0:
+        print('주먹이 다 떨어졌습니다. 폭력을 중지합니다.')
+        break
     
