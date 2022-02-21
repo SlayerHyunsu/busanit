@@ -75,6 +75,45 @@ result1, result2 = add_and_mul(3,4)
 print(result1,result2)
 
 
+# def say_myself(name, old, man=True): 
+#     print("나의 이름은 %s 입니다." % name) 
+#     print("나이는 %d살입니다." % old) 
+#     if man: 
+#         print("남자입니다.")
+#     else: 
+#         print("여자입니다.")
+
+# say_myself('이현수',74, True)
+
+# say_myself('최은수',69, True)
+
+a = 1
+def vartest(a):
+    a = a+1
+    print('함수안의 a의 값 %d' % a)
+    
+vartest(a)
+print('함수 밖의 a의 값 %d' % a)
+
+a = 1 
+def vartest(a): 
+    a = a +1 
+    return a
+
+a = vartest(a) 
+print(a)
+
+for i in range(10):
+    print(i, end=' ')
+
+
+
+
+
+
+
+
+
 
 
 
