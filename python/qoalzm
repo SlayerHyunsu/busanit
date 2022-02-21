@@ -130,3 +130,16 @@ args = [1,2,3,4,5]
 for i in args : 
     result = result + i
 print(result)
+
+
+
+#파일 열기 / w = 쓰기 , a = 내용 추가 , r = 읽기
+f = open('python/새파일.txt', 'w')
+
+for i in range(21, 31):
+    data = "%d번째 줄입니다.\n" % i
+    f.write(data)
+# \n: 줄바꿔줌/ 이거 안쓰면 내용이 한줄로 다 써짐
+
+#파일 닫기
+f.close()
